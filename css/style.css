@@ -28,9 +28,9 @@ a {
     position: relative;
     background-image: url("../img/ralphie.png");
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: 550px;
     background-position: right bottom;
-    box-shadow: inset 86em 0px 25px #edf1fd, inset 0px -46px 20px -5px #edf1fd;
+    box-shadow: inset 58em 0px 25px #edf1fd, inset 0px -46px 20px -5px #edf1fd;
 }
 
 nav {
@@ -356,12 +356,5 @@ nav {
 
     .name {
         width: 60%;
-    }
-}
-
-@media(max-width: 1440px){
-    #main {
-        background-size: 550px;
-        box-shadow: inset 58em 0px 25px #edf1fd, inset 0px -46px 20px -5px #edf1fd;
     }
 }
