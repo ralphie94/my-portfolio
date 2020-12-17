@@ -267,15 +267,11 @@ nav {
         top: 50%;
         transform: translate(-10%, -50%);
     }
-    
-    .my-picture {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+}
 
+@media(min-width: 1024px){
     .my-img {
-        width: 300px;
+        display: none;
     }
 }
 
@@ -288,6 +284,19 @@ nav {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .my-picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-img {
+        width: 330px;
+        height: 400px;
+        border-radius: 100%;
+        object-fit: cover;
     }
 }
 
@@ -357,5 +366,21 @@ nav {
 
     .name {
         width: 60%;
+    }
+
+    .my-img {
+        width: 250px;
+        height: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 400px){
+    .my-img {
+        width: 200px;
+        height: 250px;
+        border-radius: 100%;
+        object-fit: cover;
     }
 }
