@@ -8,6 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: "Moonglade DEMO";
+    src: url(/css/Moonglade\ DEMO.ttf)
+  }
+
 ul {
     list-style: none;
 }
